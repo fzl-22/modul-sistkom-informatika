@@ -67,10 +67,10 @@ Sebenarnya, sistem operasi berbasis Linux relatif lebih ringan daripada Windows.
 
 ### 1.3 Opsi-Opsi untuk Menginstall Sistem Operasi
 
-1. Fresh install (mengganti total sistem operasi, hanya jika benar-benar ingin total-experience memanfaatkan Linux dan tidak membutuhkan software khusus Windows seperti MS Word, Adobe Photoshop, dll).
-2. Dual Boot (terdapat lebih dari 1 OS dalam 1 komputer, tetapi hanya berjalan salah satunya saja. Keuntungannya adalah dapat merasakan dan langsung mempelajari OS-nya secara full-experience. Tetapi, tidak direkomendasikan untuk yg memiliki storage kecil dan harus hati-hati saat menginstall karena ada potensi kehilangan data jika ada kesalahan konfigurasi).
-3. Virtualisasi (menjalankan OS tamu (guest OS) di atas OS utama (host OS). Metode paling aman, tetapi juga paling berat karena ada lebih dari 1 OS yang berjalan bersamaan. Metode ini akan digunakan dalam praktikum).
-4. Install WSL (Windows Subsystem for Linux). Teknologi cukup baru dari Microsoft untuk mendukung komunitas Open Source, bisa baca lebih lanjut di sini: https://learn.microsoft.com/en-us/windows/wsl/install
+1. **Fresh Install** (mengganti total sistem operasi, hanya jika benar-benar ingin total-experience memanfaatkan Linux dan tidak membutuhkan software khusus Windows seperti MS Word, Adobe Photoshop, dll).
+2. **Dual Boot** (terdapat lebih dari 1 OS dalam 1 komputer, tetapi hanya berjalan salah satunya saja. Keuntungannya adalah dapat merasakan dan langsung mempelajari OS-nya secara full-experience. Tetapi, tidak direkomendasikan untuk yg memiliki storage kecil dan harus hati-hati saat menginstall karena ada potensi kehilangan data jika ada kesalahan konfigurasi).
+3. **Virtualisasi** (menjalankan OS tamu (guest OS) di atas OS utama (host OS). Metode paling aman, tetapi juga paling berat karena ada lebih dari 1 OS yang berjalan bersamaan. Metode ini akan digunakan dalam praktikum).
+4. **Install WSL (Windows Subsystem for Linux)**. Teknologi cukup baru dari Microsoft yang mengintegrasikan lingkungan Windows dengan Linux, bisa baca lebih lanjut di sini: https://learn.microsoft.com/en-us/windows/wsl/install
 
 ## 2. Virtualisasi
 
