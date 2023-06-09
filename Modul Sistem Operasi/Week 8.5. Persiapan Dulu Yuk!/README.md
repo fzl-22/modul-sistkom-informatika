@@ -31,7 +31,7 @@ Namun, sebenarnya ada banyak sekali sistem operasi di dunia ini. Hanya saja, seb
 
 ### 1.1 Sistem Operasi Berbasis Linux
 
-Linux adalah sistem operasi bebas dan sumber terbuka (Free and Open Source Software) serupa-UNIX (UNIX-like operating system). Sehingga, sistem operasi bebas digunakan (dan tentu saja gratis) serta source codenya dapat dilihat dan kita dapat ikut berkontribusi dalam pengembangannya. Jika penasaran, source code kernel Linux dapat diakses di [www.kernel.org](https://www.linux.org/).
+Linux adalah sistem operasi bebas dan sumber terbuka (Free and Open Source Software) serupa-UNIX (UNIX-like operating system). Sehingga, sistem operasi bebas digunakan (dan tentu saja gratis) serta source codenya dapat dilihat dan kita dapat ikut berkontribusi dalam pengembangannya. Jika penasaran, source code kernel Linux dapat diakses di [www.kernel.org](https://www.kernel.org/).
 
 Walaupun terkadang sebagian orang menyebut Linux sebagai sistem operasi, Linux lebih tepatnya adalah sebuah kernel. Kernel sendiri adalah bagian inti dari sebuah sistem operasi yang bertanggung jawab dalam pengelolaan memori, proses, device driver, dan system call serta keamanan. Gambar di bawah menggambarkan arsitektur dari sistem operasi berbasis Linux (kadang-kadang juga disebut GNU/Linux karena sistem operasinya merupakan gabungan dari kernel Linux dan utilitas GNU):
 
