@@ -43,7 +43,7 @@ Karena Linux hanyalah sebuah kernel, berikut adalah sistem-sistem operasi berbas
 
 1. Debian (https://www.debian.org/)
 2. Ubuntu (https://ubuntu.com/)
-3. Red Hat (https://www.redhat.com/en)
+3. Red Hat Enterprise Linux (https://www.redhat.com/en)
 4. Fedora (https://fedoraproject.org/)
 5. Arch Linux (https://archlinux.org/)
 6. EndeavourOS (https://endeavouros.com/)
