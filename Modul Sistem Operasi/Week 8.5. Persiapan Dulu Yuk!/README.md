@@ -11,6 +11,7 @@
 - [3. Virtual Machine dan Guest OS](#3-virtual-machine-dan-guest-os)
   - [3.1 Membuat Virtual Machine Baru](#31-membuat-virtual-machine-baru)
   - [3.2 Menginstall Ubuntu Server di Virtual Machine](#32-menginstall-ubuntu-server-di-virtual-machine)
+- [Prakata](#prakata)
 
 ## 1. Mengenal Sistem Operasi
 
