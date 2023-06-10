@@ -303,6 +303,14 @@ Berikut adalah langkah-langkah untuk membuat Virtual Machine baru.
 
     ![](./assets/Menginstall%20Ubuntu%20Server%20di%20VM/38.%20Login%20berhasil.png)
 
+18. Sekarang, matikan VM dengan cara mengetikkan perintah `poweroff` di konsol Ubuntu Server (jangan lewat tanda silang di windownya) seperti gambar di bawah ini.
+
+    **Catatan Penting!**
+
+    Pastikan untuk selalu mematikan VM yang telah selesai dipakai untuk melepaskan resource hardware yang dipakai.
+
+    ![](./assets/Menginstall%20Ubuntu%20Server%20di%20VM/39.%20Matikan%20VM.png)
+
 ## Penutup
 
 Demikian adalah pembahasan mengenai sistem operasi secara umum, sistem operasi berbasis Linux, hingga opsi-opsi untuk menginstallnya. Opsi instalasi yang akan digunakan adalah menggunakan teknologi virtualisasi. Untuk itu, telah dijelaskan langkah-langkah mulai dari mempersiapkan file ISO Ubuntu Server & aplikasi Oracle VirtualBox hingga menginstall Ubuntu Server di dalam VM yang telah dibuat.
