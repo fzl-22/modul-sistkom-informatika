@@ -10,27 +10,27 @@ Sub-Materi
 ### 1. Basic Command
 ##### 1. pwd
 *print working directory*. Untuk mengetahui di directory mana kita berada sekarang.
-![pwd](img/pwd.png)
+![pwd](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20134349.png)
 
 ##### 2. ls
 *list*. Untuk menampilkan file-file apa saja yang ada di suatu directory.
-![ls](img/ls.png)  
+![ls](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20135506.png)  
 Parameter yang sering dipakai pada perintah ls adalah `-a` dan `-l`.
 - Saat menggunakan parameter `-a` maka semua file akan ditampikan, termasuk yang *hidden* (diawali dengan `.`).
-![ls -a](img/ls_a.png)
+![ls -a](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20135545.png)
 - Sedangkan parameter `-l` menampilkan file yang tidak *hidden* dalam format *long-list*.
-![ls -l](img/ls_l.png)
+![ls -l](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20135835.png)
 
 ##### 3. man
 *manuals*. Digunakan untuk melihat fungsi dan parameter dari suatu comman
 Contoh `man ls` akan menampilkan manual penggunaan command `ls`.
 Untuk keluar dari tampilan manual tersebut kita tinggal menekan tombol `q`.
-![man](img/manls.png)
+![man](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20135928.png)
 
 ##### 4. cd
 *change directory*. Digunakan untuk pindah ke directory lain. Syntax-nya adalah ```cd [namadirectory]```.
 Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`  
-![cd](img/cd.png)  
+![cd](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20211109.png)  
 Contoh lain:
 + `cd` atau `cd ~` untuk pindah ke directory home user
 + `cd /` untuk pindah ke directory root
@@ -40,7 +40,7 @@ Contoh lain:
 ##### 5. mkdir
 *make directory*. Digunakan untuk membuat sebuah directory (folder).
 Syntax-nya adalah ```mkdir [namadirectory]```
-![mkdir](img/mkdir.png)
+![mkdir](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20141025.png)
 
 ##### 6. cp
 *copy*. Digunakan untuk menyalin (meng-copy) file.
@@ -50,44 +50,44 @@ Syntax-nya adalah ```cp [namafile] [namacopyannya]```
 ##### 7. mv
 *Move* Digunakan untuk memindahkan suatu file ke directory lain.
 + Untuk memindahkan file, syntax-nya adalah ```mv [namafile] [pathbarunya]```
-![mv](img/mv.png)
+![mv](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20214543.png)
 + Selain itu `mv` dapat juga digunakan untuk me-rename file, syntax-nya adalah ```mv [namafile] [namabaru]```
-![mv](img/mv2.png)
+![mv](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20214637.png)
 
 ##### 8. cat
 *concatenate*. Digunakan untuk menampilkan isi dari suatu file.
-![cat](img/cat.png)
+![cat](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20214732.png)
 
 ##### 9. rm
 *remove*. Digunakan untuk menghapus suatu file. Syntax-nya adalah ```rm [namafile]```
-![rm](img/rm.png)  
+![rm](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20214803.png)  
 Selain itu rm juga dapat digunakan untuk menghapus directory, yaitu dengan menambahkan parameter `-r`
-![rm -r](img/rm_r.png)
+![rm -r](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20214918.png)
 
 ##### 10. rmdir
 *remove directory*. Digunakan untuk menghapus directory yang kosong. Syntax-nya adalah ```rmdir [namafolder]```
-![rmdir](img/rmdir.png)
+![rmdir](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20215010.png)
 
 ##### 11. echo
 Digunakan untuk menampilkan string yang kita inputkan. Syntax-nya adalah ```echo [string yang diinginkan]```
-![echo](img/echo.png)
+![echo](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20215117.png)
 
 ##### 12. grep
 Digunakan untuk menampilkan setiap baris pada suatu file yang mengandung kata yang dicari.
 Syntax-nya adalah `grep "[katayangdicari]" [namafile]`
-![grep](img/grep.png)
+![grep](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20215430.png)
 
 ##### 13. zip
 Command ini digunakan untuk melakukan compress data menjadi bentuk zip. Syntax-nya adalah ```zip [namafilezip] [file1] [file2]```.
 Misalnya kita ingin mengompress file **makanan** dan **cemilan** menjadi  **energi.zip** .
 Maka command yang kita jalankan adalah `zip energi makanan cemilan`
-![zip](img/zip.png)
+![zip](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20025729.png)
 
 ##### 14. unzip
 Kebalikan dari command zip, unzip digunakan untuk mengekstrak isi dari file .zip
 Syntax-nya adalah ```unzip [namafilezip]```.
 Jadi untuk mengekstrak file foobar.zip kita perlu menjalankan comman `unzip energi.zip`.
-![unzip](img/unzip.png)
+![unzip](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20025840.png)
 
 ##### 15. exit
 Digunakan untuk menutup terminal atau mengakhiri suatu script (misalnya saat melakukan ssh ke komputer lain)
@@ -95,15 +95,15 @@ Digunakan untuk menutup terminal atau mengakhiri suatu script (misalnya saat mel
 ##### 16. clear
 Digunakan untuk 'membersihkan' isi layar terminal.
 Sebelum clear:  
-![clear1](img/sebelumclear.png)  
+![clear1](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20025907.png)  
 Sesudah clear:  
-![clear2](img/sesudahclear.png)
+![clear2](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20025927.png)
 
 ##### 17. tree
 Digunakan untuk menampilkan list directory.
 Untuk menggunakan command ini, user harus meng-*install*-nya terlebih dahulu dengan command
 `sudo apt-get install tree`  
-![tree](img/tree.png)
+![tree](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20030028.png)
 
 ##### 18. mount
 Digunakan untuk melakukan mount. Syntax-nya adalah `sudo mount [file/device yang mau di-mount] [directory tempat dia akan di-mount]`
@@ -152,13 +152,13 @@ Syntax-nya adalah `sudo [command]`
 
 ##### 4. passwd
 Digunakan untuk meng-*update* password user.
-![passwd](img/passwd.png)  
+![passwd](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20030546.png)  
 
 ##### 5. chmod
 *change mode*. Digunakan untuk mengubah izin akses dari suatu dokumen.
 Contoh syntax `chmod 777 [namafile]`
 *777* adalah representasi dari permission yang diberikan. Angka pertama melambangkan permission untuk user, angka kedua untuk group, dan angka ke tiga untuk *Others*
-![chmod](img/chmod.png)  
+![chmod](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20030809.png)  
 
 Permission Table
 
@@ -189,26 +189,26 @@ Syntax yang biasa digunakan adalah `vim [nama-file]`. Setelah command tersebut d
 ```sh
 $ vim nyoba.txt
 ```
-![vim3](img/vim3.png)
+![vim3](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20031240.png)
 
 Vim sekarang dalam *mode normal*. Untuk menginsertkan teks, maka ketik `i` untuk masuk ke *mode insert* dan diikuti dengan mengetikkan teks yang diinginkan.
 Ketika kita menekan `i` untuk menginsertkan teks, karakter yang kita inputkan akan terketik sesuai dengan posisi kursor saat itu. Agar karakter yang kita inputkan terketik pada sebelah kanan posisi kursor, maka kembalikan vim pada mode normal, dan tekan `a`. Maka karakter yang kita inputkan akan terketik pada sebelah kanan posisi kursor saat itu.
 
 Jika sudah selesai menginputkan teks, tekan `esc` dan vim akan kembali ke mode normal. Dalam mode normal, tekan `h` untuk bergerak ke kiri, `l` untuk ke kanan, `j` untuk bergerak ke atas dan `k` untuk ke bawah.
-![vim4](img/vim4.png)
+![vim4](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20031426.png)
 
 ##### Menghapus karakter
 Untuk menghapus sebuah karakter, selain bisa dilakukan pada mode insert dapat pula dilakukan ketika vim dalam *mode normal*. Yaitu dengan mengarahkan tanda kursor pada karakter yang ingin dihapus, dan menekan `x`.
 Contohnya misal ketika kursor diletakkan pada huruf pertama yaitu huruf *i* pada kalimat *ini baris 3 ya* dan `x` ditekan sebanyak 4 kali, maka kalimat pada baris tersebut yang tersisa adalah *baris 3 ya*.
-![vim5](img/vim5.png)
+![vim5](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20041941.png)
 
 ##### Menghapus baris
 Jika yang ingin dihapus adalah satu baris penuh, maka yang perlu dilakukan pada *mode normal* yaitu memposisikan kursor pada baris yang ingin dihapus, dan ketikkan `dd`. Misalnya kita ingin menghapus baris pertama dimana terdapat kalimat *hehe :)* maka setelah memposisikan kursor pada baris tersebut, ketika kita mengetikkan `dd` maka baris yang tersisa adalah *nyoba nulis* sebagai baris pertama dan *baris 3 ya* sebagai baris ke-2.
-![vim6](img/vim6.png)
+![vim6](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20031450.png)
 
 ##### Menggabungkan dua baris
 Untuk menggabungkan dua baris menjadi satu baris atau dengan kata lain menghilangkan spasi diantara 2 baris, maka pada *mode normal* cukup dengan memposisikan kursor pada kalimat di baris pertama dan tekan `J`. Maka kalimat pada baris kedua akan menjadi satu baris dengan kalimat pertama.
-![vim7](img/vim7.png)
+![vim7](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20031600.png)
 
 ##### Undo dan Redo
 Pada teks editor vim, untuk meng-undo perubahan yang baru saja kita lakukan dilakukan dengan mengetik `u`. Maka pengerjaan yang baru saja kita lakukan akan ter-undo.
@@ -257,27 +257,27 @@ Syntax yang biasa digunakan
 ```sh
 $ nano [nama-file]
 ```
-![nano1](img/nanoo.png)
+![nano1](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20042341.png)
 
 Command tersebut akan memunculkan default nano-screen
 
-![nano2](img/nano2.png)
+![nano2](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20033521.png)
 
 Untuk melihat list dari shortcut-shortcut yang ada tekan `Ctrl+G`
 
-![nano3](img/nano3.png)
+![nano3](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20033537.png)
 
 Ketika `Ctrl+X` ditekan untuk keluar dari editor, pada bagian bawah di baris ketiga dari bawah akan muncul pertanyaan *Save modified buffer?* Tekan `Y` untuk menyimpan perubahan dari file, dan `N` untuk keluar dari teks editor nano tanpa menyimpan perubahan. 
 
 Selain itu sebelum benar-benar keluar dari teks editor nano, kita juga dapat merubah nama file yang baru saja kita buat tadi. Cukup dengan mengganti nama file sebelumnya yang tertera pada bagian bawah teks editor dimana terdapat tulisan *File name to write: ...* lalu tekan Enter.
-![nano4](img/nano4.png)
+![nano4](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20033639.png)
 
 ##### 4. touch
 Digunakan untuk membuat sebuah file. Syntax yang digunakan 
 ```sh
 $ touch [nama-file]
 ```
-![touch1](img/touch1.png)
+![touch1](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20033732.png)
 
 ### 4. Export Variable
 Command *export* adalah salah satu command yang merupakan bagian dari shell (BuiltIn bash shell). Command ini cukup mudah digunakan karena syntax nya 'langsung' dan hanya memiliki 3 opsi perintah:
