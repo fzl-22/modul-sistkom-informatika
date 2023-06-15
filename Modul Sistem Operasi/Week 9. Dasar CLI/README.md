@@ -265,6 +265,7 @@ Untuk melihat list dari shortcut-shortcut yang ada tekan `Ctrl+G`
 Ketika `Ctrl+X` ditekan untuk keluar dari editor, pada bagian bawah di baris ketiga dari bawah akan muncul pertanyaan *Save modified buffer?* Tekan `Y` untuk menyimpan perubahan dari file, dan `N` untuk keluar dari teks editor nano tanpa menyimpan perubahan. 
 
 Selain itu sebelum benar-benar keluar dari teks editor nano, kita juga dapat merubah nama file yang baru saja kita buat tadi. Cukup dengan mengganti nama file sebelumnya yang tertera pada bagian bawah teks editor dimana terdapat tulisan *File name to write: ...* lalu tekan Enter.
+
 ![nano4](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20033639.png)
 
 ##### 3. touch
