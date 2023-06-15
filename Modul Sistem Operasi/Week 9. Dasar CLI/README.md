@@ -284,11 +284,6 @@ Secara umum, perintah ekspor menandai *environment variabel* untuk diekspor sehi
 
 Contoh penggunaan export:
 
-##### Meng-export Proxy
-Untuk melakukan export proxy, misalnya menggunakan proxy ITS, maka syntax pada terminal
-```sh
-$ export http_proxy="http://username%40mhs.if.its.ac.id:password@proxy.its.ac.id:8080"
-```
 ##### Men-set vim sebagai text editor
 pada terminal ketikkan command
 ```sh
