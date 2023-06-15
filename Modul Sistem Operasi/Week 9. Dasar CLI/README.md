@@ -245,31 +245,7 @@ Untuk mengeksplorasi lebih lanjut mengenai teks editor vim, terdapat tutorial vi
 $ vimtutor
 ```
 
-##### 2. gedit
-Gedit atau *Gnome-Text-Editor* adalah teks editor untuk GNOME desktop dan dapat digunakan untuk mengedit teks jenis apapun.
-Syntax yang biasa digunakan untuk menjalankan teks editor ini adalah 
-```sh
-$ gedit [nama-file]
-```
-
-Misal kita akan membuat file txt dengan nama *cobagedit* maka ketikkan pada terminal
-```sh
-$ gedit cobagedit.txt
-```
-Halaman gedit pun akan muncul dan kita bisa menginputkan teks yang kita inginkan.
-![gedit1](img/gdit1.png)
-
-File gedit memungkinkan kita untuk mengedit banyak file sekaligus. Syntax yang digunakan 
-```sh
-$ gedit [file1 file2 ...]
-```
-misalnya mengedit 2 file yaitu *cobagedit.txt* dan *nyobajuga.txt*
-```sh
-$ gedit cobagedit.txt nyobajuga.txt
-```
-![gedit2](img/gdit2.png)
-
-##### 3. nano
+##### 2. nano
 Nano atau *Nano's ANOther editor* merupakan teks editor yang dikembangkan mirip dengan teks editor *Pico* yang menjadi editor default dari Pine. Nano termasuk teks editor yang *user-friendly* karena adanya *shortcut* pada bagian bawah editor sehingga memudahkan pengguna dalam menggunakan teks editor ini.
 Syntax yang biasa digunakan 
 ```sh
@@ -290,7 +266,7 @@ Ketika `Ctrl+X` ditekan untuk keluar dari editor, pada bagian bawah di baris ket
 Selain itu sebelum benar-benar keluar dari teks editor nano, kita juga dapat merubah nama file yang baru saja kita buat tadi. Cukup dengan mengganti nama file sebelumnya yang tertera pada bagian bawah teks editor dimana terdapat tulisan *File name to write: ...* lalu tekan Enter.
 ![nano4](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20033639.png)
 
-##### 4. touch
+##### 3. touch
 Digunakan untuk membuat sebuah file. Syntax yang digunakan 
 ```sh
 $ touch [nama-file]
