@@ -174,6 +174,7 @@ Digunakan untuk meng-*update* password user.
 *change mode*. Digunakan untuk mengubah izin akses dari suatu dokumen.
 Contoh syntax `chmod 777 [namafile]`
 *777* adalah representasi dari permission yang diberikan. Angka pertama melambangkan permission untuk user, angka kedua untuk group, dan angka ke tiga untuk *Others*
+
 ![chmod](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20030809.png)  
 
 Permission Table
