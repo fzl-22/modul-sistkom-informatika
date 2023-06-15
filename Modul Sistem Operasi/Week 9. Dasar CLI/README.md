@@ -366,7 +366,7 @@ Node.js merupakan sebuah runtime environment yang memungkinkan Javascript untuk 
 
     `console.log("Halo, Kelompok saya terdiri dari <nama anggota 1> dan <nama anggota 2>");`
 
-7. Eksekusi file tersebut dengan command `node <nama-file>.js`.
+7. Eksekusi file tersebut dengan command `node <nama-file>`.
 
 Dokumentasi yang telah kalian buat dikumpulkan ke form berikut:
 
