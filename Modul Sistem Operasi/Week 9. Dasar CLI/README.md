@@ -10,16 +10,19 @@ Sub-Materi
 ### 1. Basic Command
 ##### 1. pwd
 *print working directory*. Untuk mengetahui di directory mana kita berada sekarang.
+
 ![pwd](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20134349.png)
 
 ##### 2. ls
 *list*. Untuk menampilkan file-file apa saja yang ada di suatu directory.
+
 ![ls](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20135506.png)  
 Parameter yang sering dipakai pada perintah ls adalah `-a` dan `-l`.
 - Saat menggunakan parameter `-a` maka semua file akan ditampikan, termasuk yang *hidden* (diawali dengan `.`).
 ![ls -a](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20135545.png)
 - Sedangkan parameter `-l` menampilkan file yang tidak *hidden* dalam format *long-list*.
-![ls -l](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20135835.png)
+
+  ![ls -l](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20135835.png)
 
 ##### 3. man
 *manuals*. Digunakan untuk melihat fungsi dan parameter dari suatu comman
@@ -50,18 +53,23 @@ Syntax-nya adalah ```cp [namafile] [namacopyannya]```
 ##### 7. mv
 *Move* Digunakan untuk memindahkan suatu file ke directory lain.
 + Untuk memindahkan file, syntax-nya adalah ```mv [namafile] [pathbarunya]```
+
 ![mv](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20214543.png)
 + Selain itu `mv` dapat juga digunakan untuk me-rename file, syntax-nya adalah ```mv [namafile] [namabaru]```
+
 ![mv](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20214637.png)
 
 ##### 8. cat
 *concatenate*. Digunakan untuk menampilkan isi dari suatu file.
+
 ![cat](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20214732.png)
 
 ##### 9. rm
 *remove*. Digunakan untuk menghapus suatu file. Syntax-nya adalah ```rm [namafile]```
+
 ![rm](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20214803.png)  
 Selain itu rm juga dapat digunakan untuk menghapus directory, yaitu dengan menambahkan parameter `-r`
+
 ![rm -r](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20214918.png)
 
 ##### 10. rmdir
@@ -75,12 +83,14 @@ Digunakan untuk menampilkan string yang kita inputkan. Syntax-nya adalah ```echo
 ##### 12. grep
 Digunakan untuk menampilkan setiap baris pada suatu file yang mengandung kata yang dicari.
 Syntax-nya adalah `grep "[katayangdicari]" [namafile]`
+
 ![grep](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-14%20215430.png)
 
 ##### 13. zip
 Command ini digunakan untuk melakukan compress data menjadi bentuk zip. Syntax-nya adalah ```zip [namafilezip] [file1] [file2]```.
 Misalnya kita ingin mengompress file **makanan** dan **cemilan** menjadi  **energi.zip** .
 Maka command yang kita jalankan adalah `zip energi makanan cemilan`
+
 ![zip](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20025729.png)
 
 ##### 14. unzip
@@ -113,6 +123,7 @@ Contoh: ada suatu file _iso_ yang berisi beberapa file. Untuk dapat mengakses fi
 ##### 19. umount
 Digunakan untuk melakukan _unmount_. Syntax-nya adalah `umount [directory tempat suatu file/device di-mount]`.
 Nama command-nya `umount` yaa bukan _unmount_.
+
 ![unmount](img/umount.JPG)  
 
 ##### 20. dpkg
@@ -123,12 +134,14 @@ pertama download dulu installer google chrome yang berekstensi __.deb__
 ```sh
 $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
+
 ![wget](img/wget.JPG)  
 
 lalu untuk meng-installnya gunakan command
 ```sh
 $ dpkg -i google-chrome-stable_current_amd64.deb
 ```
+
 ![dpkg](img/dpkg2.jpg)  
 
 ### 2. Administrative Command
@@ -144,14 +157,17 @@ Syntax-nya adalah `sudo [command]`
 *change owner*.
 + Digunakan untuk mengubah kepemilikan dari suatu file. Syntax-nya adalah 
 ```chown [namauser] [namafile]```
+
 ![chown](img/chown.png)  
 + Selain user pemilik, command `chown` juga bisa digunakan untuk mengganti *group* pemilik. Syntax-nya adalah
 ```chown [namauser]:[namagroup] [namafile]```
+
 ![chown-group](img/chown2.png)  
 **Note:** mohon diingat bahwa nama user dan group yang dipilih harus sudah ada di komputer tersebut.
 
 ##### 4. passwd
 Digunakan untuk meng-*update* password user.
+
 ![passwd](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20030546.png)  
 
 ##### 5. chmod
@@ -204,10 +220,12 @@ Contohnya misal ketika kursor diletakkan pada huruf pertama yaitu huruf *i* pada
 
 ##### Menghapus baris
 Jika yang ingin dihapus adalah satu baris penuh, maka yang perlu dilakukan pada *mode normal* yaitu memposisikan kursor pada baris yang ingin dihapus, dan ketikkan `dd`. Misalnya kita ingin menghapus baris pertama dimana terdapat kalimat *hehe :)* maka setelah memposisikan kursor pada baris tersebut, ketika kita mengetikkan `dd` maka baris yang tersisa adalah *nyoba nulis* sebagai baris pertama dan *baris 3 ya* sebagai baris ke-2.
+
 ![vim6](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20031450.png)
 
 ##### Menggabungkan dua baris
 Untuk menggabungkan dua baris menjadi satu baris atau dengan kata lain menghilangkan spasi diantara 2 baris, maka pada *mode normal* cukup dengan memposisikan kursor pada kalimat di baris pertama dan tekan `J`. Maka kalimat pada baris kedua akan menjadi satu baris dengan kalimat pertama.
+
 ![vim7](https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/img/Screenshot%202023-06-15%20031600.png)
 
 ##### Undo dan Redo
@@ -368,9 +386,7 @@ Node.js merupakan sebuah runtime environment yang memungkinkan Javascript untuk 
 
 7. Eksekusi file tersebut dengan command `node <nama-file>`.
 
-Dokumentasi yang telah kalian buat dikumpulkan ke form berikut:
-
-// Buat formnya nanti
+Dokumentasi yang telah kalian buat dikumpulkan ke form berikut: https://forms.gle/kXKevFXRX2kchJE89
 
 Penilaian diambil dari:
 
