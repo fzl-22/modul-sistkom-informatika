@@ -358,15 +358,16 @@ Semua paket yang dibuthkan oleh paket yang akan diinstall juga akan terunduh dan
 
 Node.js merupakan sebuah runtime environment yang memungkinkan Javascript untuk berjalan di sisi server. Asumsikan kalian saat ini sedang mempelajari web development dan ingin menginstall Node.js di Ubuntu Server yang berada jauh dari kalian (secara remote). Buatlah dokumentasi untuk melakukan hal tersebut dalam format pdf disertai dengan bukti screenshot dan penjelasan. Hal-hal yang perlu dilakukan adalah sebagai berikut:
 1. Akses Ubuntu Server kalian menggunakan SSH dari terminal (Powershell di Windows atau terminal di Mac OS).
-2. Download source code dari Node.js menggunakan `wget`, berikut URL-nya: https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/raw/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/src/node-v18.16.0-linux-x64-archive.zip
-3. Extract source code, kemudian pindah direktori hasil ekstraksi ke `/usr/local/lib/nodejs` (buat sendiri jika belum ada).
-4. Masukkan ke environment variabel Node.js (yaitu path ke direktori `bin` yang ada di direktori nodejs) ke file `~/.bashrc`. Caranya adalah dengan menambahkan kode berikut: `export PATH="$PATH:<path ke direktori bin di direktori Node.js>`" di akhir file. Setelah itu, refresh file tersebut dengan command `source ~/.bashrc`.
-5. Cek instalasi Node.js dengan 3 command berikut: `node --version`, `npm --version`, dan `npx --version`.
-6. Buatlah file bernama `test.js` di direktori `~/Documents` (buat sendiri jika belum ada) menggunakan teks editor pilihanmu. File ini berisi 1 baris kode, yaitu:
+2. Masuk ke file `/etc/hosts`, tambahkan baris berikut `185.199.108.133 raw.githubusercontent.com` di baris terakhir menggunakan nano (jangan lupa `sudo`).
+3. Download source code dari Node.js menggunakan `wget`, berikut URL-nya: https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/raw/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/src/node-v18.16.0-linux-x64-archive.zip
+4. Extract source code, kemudian pindah direktori hasil ekstraksi ke `/usr/local/lib/nodejs` (buat sendiri jika belum ada).
+5. Masukkan ke environment variabel Node.js (yaitu path ke direktori `bin` yang ada di direktori nodejs) ke file `~/.bashrc`. Caranya adalah dengan menambahkan kode berikut: `export PATH="$PATH:<path ke direktori bin di direktori Node.js>`" di akhir file. Setelah itu, refresh file tersebut dengan command `source ~/.bashrc`.
+6. Cek instalasi Node.js dengan 3 command berikut: `node --version`, `npm --version`, dan `npx --version`.
+7. Buatlah file bernama `test.js` di direktori `~/Documents` (buat sendiri jika belum ada) menggunakan teks editor pilihanmu. File ini berisi 1 baris kode, yaitu:
 
     `console.log("Halo, Kelompok saya terdiri dari <nama anggota 1> dan <nama anggota 2>");`
 
-7. Eksekusi file tersebut dengan command `node <nama-file>`.
+8. Eksekusi file tersebut dengan command `node <nama-file>`.
 
 Dokumentasi yang telah kalian buat dikumpulkan ke form berikut: https://forms.gle/kXKevFXRX2kchJE89
 
