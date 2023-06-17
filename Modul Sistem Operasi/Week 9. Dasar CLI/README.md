@@ -358,7 +358,7 @@ Semua paket yang dibuthkan oleh paket yang akan diinstall juga akan terunduh dan
 
 Node.js merupakan sebuah runtime environment yang memungkinkan Javascript untuk berjalan di sisi server. Asumsikan kalian saat ini sedang mempelajari web development dan ingin menginstall Node.js di Ubuntu Server yang berada jauh dari kalian (secara remote). Buatlah dokumentasi untuk melakukan hal tersebut dalam format pdf disertai dengan bukti screenshot dan penjelasan. Hal-hal yang perlu dilakukan adalah sebagai berikut:
 1. Akses Ubuntu Server kalian menggunakan SSH dari terminal (Powershell di Windows atau terminal di Mac OS).
-2. Download source code dari Node.js menggunakan `wget`, berikut URL-nya: https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/blob/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/src/node-v18.16.0-linux-x64-archive.zip
+2. Download source code dari Node.js menggunakan `wget`, berikut URL-nya: https://github.com/fzl-22/Pemrograman-Sistem-Komputer_Informatika/raw/master/Modul%20Sistem%20Operasi/Week%209.%20Dasar%20CLI/src/node-v18.16.0-linux-x64-archive.zip
 3. Extract source code, kemudian pindah direktori hasil ekstraksi ke `/usr/local/lib/nodejs` (buat sendiri jika belum ada).
 4. Masukkan ke environment variabel Node.js (yaitu path ke direktori `bin` yang ada di direktori nodejs) ke file `~/.bashrc`. Caranya adalah dengan menambahkan kode berikut: `export PATH="$PATH:<path ke direktori bin di direktori Node.js>`" di akhir file. Setelah itu, refresh file tersebut dengan command `source ~/.bashrc`.
 5. Cek instalasi Node.js dengan 3 command berikut: `node --version`, `npm --version`, dan `npx --version`.
