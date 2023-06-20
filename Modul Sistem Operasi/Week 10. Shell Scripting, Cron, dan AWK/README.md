@@ -920,7 +920,7 @@ Penilaian diambil dari:
 1. Kesesuaian dengan instruksi dan kerincian penjelasan (80%).
 2. Estetika dan kerapian dokumentasi (20%).
 
-Contoh output dari cron job:
+Contoh output dari cron job yang diarahkan ke masing-masing log file:
 
 Soal 1.
 
