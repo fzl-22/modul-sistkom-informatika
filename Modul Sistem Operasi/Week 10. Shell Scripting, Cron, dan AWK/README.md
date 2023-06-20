@@ -45,7 +45,7 @@
 
 # 1. Shell Scripting
 ## 1.1 Shell
-Sistem operasi dibagi menjadi tiga komponen penting, yaitu Kernel, Shell, dan Program Utility.
+Sistem operasi dibagi menjadi tiga komponen penting, yaitu Kernel, Shell, dan System Utility.
 
 ![Komponen Sistem Operasi](gambar/linux_architecture.png)
 
