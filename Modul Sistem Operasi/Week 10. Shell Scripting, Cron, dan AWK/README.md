@@ -913,7 +913,7 @@ Buatlah dokumentasi untuk melakukan kedua hal di atas sehingga bos kamu dapat me
 
 Dokumentasi yang telah kalian buat dikumpulkan ke form berikut:
 
-// Form Pengumpulan
+https://docs.google.com/forms/d/e/1FAIpQLSf7rbQrw4dON7hmJEhrn8DFOOsZJSBHjIGXFxRAbVy73RgQ-w/viewform
 
 Penilaian diambil dari:
 
