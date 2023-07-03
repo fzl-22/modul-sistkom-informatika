@@ -3,7 +3,7 @@
 Menggunakan:
 
 - Linux
-- Bahasa C (compile dengan _gcc_)
+- Bahasa C (compile dengan _gcc_ / GNU C Compiler). Bila belum ada, lakukan perintah berikut: `sudo apt update && sudo apt install build-essential`.
 
 # Daftar Isi
 
