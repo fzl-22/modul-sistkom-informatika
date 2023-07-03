@@ -903,7 +903,7 @@ Kamu adalah seorang System Administrator di sebuah warung pecel lele di Ketintan
     - Error dari script diarahkan ke file `system-upgrade.error` menggunakan append error redirection (2>>) di direktori yang sama.
 2. Bos kamu juga merupakan orang yang mudah khawatir, sehingga ia sangat takut apabila server warungnya down. Oleh karena itu, ia ingin kamu membuatkan script untuk memeriksa penggunaan memory setiap menit dalam persentase. Ia ingin diberikan peringatan dengan rincian sebagai berikut:
 
-    - Jika penggunaan memory `0% < memory <= 50%``0% < memory <= 50%`, outputkan "Server aman!".
+    - Jika penggunaan memory `0% < memory <= 50%`, outputkan "Server aman!".
     - Jika penggunaan memory `50% < memory <= 80%`, outputkan "Telah melewati batas aman!".
     - Jika penggunaan memory `memory > 80%`, outputkan "Hati-hati sistem down!"
     - Script bernama `pecel-lele-script.sh` dan outputnya diarahkan menggunakan append output redirection ke file `pecel-lele-script.log`. Kedua file ini berada di direktori `~/Documents`.
