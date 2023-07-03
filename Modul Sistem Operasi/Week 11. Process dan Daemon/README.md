@@ -1,6 +1,4 @@
-# sisop-modul-2
-
-# Proses dan Daemon
+# Week 11. Proses dan Daemon
 
 Menggunakan:
 
