@@ -1,4 +1,4 @@
-# Tugas Besar: FUSE by API Requests
+# Tugas Besar: FUSE by API Requests (PokeAPI)
 
 ## Konfigurasi Workspace
 
