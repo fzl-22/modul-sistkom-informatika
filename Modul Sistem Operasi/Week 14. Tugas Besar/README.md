@@ -1,5 +1,7 @@
 # Tugas Besar: FUSE by API Requests (PokeAPI)
 
+
+
 ## Konfigurasi Workspace
 
 Buat 1 direktori dengan nama `pokemon_fs`. Kemudian masuk ke direktori tersebut. Di dalam direktori ini, source code dan folder library `librequests` dan `json-parser` akan disimpan. Struktur folder nantinya adalah sebagai berikut (ikuti langkah di section selanjutnya terlebih dahulu):
@@ -104,4 +106,28 @@ pokemon_fs
     ```
 ## Tugas Besar
 
-Coming Soonn
+![](./assets/cute-pikachu-6o.jpg)
+
+Buatlah program FUSE untuk menyimpan gambar dan file yang berisi link menuju halaman skill pokemon. Data-data pokemon dikonsumsi dari API https://pokeapi.co. Cara konsumsi dari API dapat menggunakan `librequests` untuk mengambil data JSON dari API. Kemudian, JSON yang diterima di dalam program bisa di-parsing menggunakan library `json-parser`.
+
+Sample Input:
+
+```
+./pokemon_fuse pikachu -f pokemon_fs
+```
+
+Maka isi dari pokemon_fs adalah sebagai berikut:
+
+```
+pikachu/abilities/static -> isi file: https://pokeapi.co/api/v2/ability/9/
+pikachu/abilities/lightning-rod -> isi file: https://pokeapi.co/api/v2/ability/31/
+pikachu/images/image.jpg
+```
+
+Ketentuan:
+
+1. Deadline : 11 Agustus 2023
+2. Template Laporan Tugas Besar: [Template Laporan Tugas Besar](./Template%20Laporan%20Tugas%20Besar%20-%20Pemrograman%20Sistem%20Komputer.docx)
+3. Dikumpulkan di form berikut: [Form Pengumpulan Laporan Tugas Besar](https://forms.gle/hPjZcdy1EZ8Dh7CB8)
+
+
