@@ -108,7 +108,8 @@ pokemon_fs
 
 ![](./assets/cute-pikachu-6o.jpg)
 
-Buatlah program FUSE untuk menyimpan gambar dan file yang berisi link menuju halaman skill pokemon. Data-data pokemon dikonsumsi dari API https://pokeapi.co/api/v2/pokemon/<nama pokemon>. Cara konsumsi dari API dapat menggunakan `librequests` untuk mengambil data JSON dari API. Kemudian, JSON yang diterima di dalam program bisa di-parsing menggunakan library `json-parser`.
+Buatlah program FUSE untuk menyimpan gambar dan file yang berisi link menuju halaman skill pokemon. Data-data pokemon dikonsumsi dari API https://pokeapi.co/api/v2/pokemon/nama-pokemon. Cara konsumsi dari API dapat menggunakan `librequests` untuk mengambil data JSON dari API. Kemudian, JSON yang diterima di dalam program bisa di-parsing menggunakan library `json-parser`.
+
 
 Sample Input:
 
