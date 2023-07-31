@@ -108,26 +108,41 @@ pokemon_fs
 
 ![](./assets/cute-pikachu-6o.jpg)
 
-Buatlah program FUSE untuk menyimpan gambar dan file yang berisi link menuju halaman skill pokemon. Data-data pokemon dikonsumsi dari API https://pokeapi.co. Cara konsumsi dari API dapat menggunakan `librequests` untuk mengambil data JSON dari API. Kemudian, JSON yang diterima di dalam program bisa di-parsing menggunakan library `json-parser`.
-
-Sample Input:
+Buat program FUSE untuk mount `/home/{user}/Documents` ke `{nama_folder}` dimana program akan melakukan get request pokemon dari API https://pokeapi.co dengan endpoint berikut:
 
 ```
-./pokemon_fuse pikachu -f pokemon_fs
+get https://pokeapi.co/api/v2/pokemon/{nama_pokemon}
 ```
 
-Maka isi dari pokemon_fs adalah sebagai berikut:
+dan **simpan informasi sebanyak mungkin data pokemon dari PokeAPI**.
+
+**Run**
 
 ```
-pikachu/abilities/static -> isi file: https://pokeapi.co/api/v2/ability/9/
-pikachu/abilities/lightning-rod -> isi file: https://pokeapi.co/api/v2/ability/31/
-pikachu/images/image.jpg
+./pokemon_fuse {nama_folder} {nama_pokemon}
 ```
 
-Ketentuan:
+Maka isi dari mounted folder adalah sebagai berikut:
 
-1. Deadline : 11 Agustus 2023
-2. Template Laporan Tugas Besar: [Template Laporan Tugas Besar](./Template%20Laporan%20Tugas%20Besar%20-%20Pemrograman%20Sistem%20Komputer.docx)
-3. Dikumpulkan di form berikut: [Form Pengumpulan Laporan Tugas Besar](https://forms.gle/hPjZcdy1EZ8Dh7CB8)
+```
+{nama_folder}/{nama_pokemon}/forms/{all_form}.png
+{nama_folder}/{nama_pokemon}/moves/mega-punch.txt -> version_details
+{nama_folder}/{nama_pokemon}/forms/
+{nama_folder}/{nama_pokemon}/moves/
+{nama_folder}/{nama_pokemon}/{all_folder_based_on_api_information}
+```
+
+Cara konsumsi dari API dapat menggunakan `librequests` untuk mengambil data JSON dari API. Kemudian, JSON yang diterima di dalam program bisa di-parsing menggunakan library `json-parser`.
+
+**Ketentuan**:
+
+1. Pengerjaan tugas besar dapat menggunakan satu di antara dua bahasa pemrograman (C atau Python), dengan ketentuan berikut:
+        
+    * Bahasa C, mendapat nilai maksimum $A \geq 80.0$
+    * Bahasa Python, mendapat nilai maksimum $AB < 80.0$
+
+2. Deadline : 11 Agustus 2023
+3. Template Laporan Tugas Besar: [Template Laporan Tugas Besar](./assets/Template%20Laporan%20Tugas%20Besar%20-%20Pemrograman%20Sistem%20Komputer.docx)
+4. Dikumpulkan di form berikut: [Form Pengumpulan Laporan Tugas Besar](https://forms.gle/hPjZcdy1EZ8Dh7CB8)
 
 
